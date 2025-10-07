@@ -1,0 +1,112 @@
+.footerDiv {
+    width: 100%;
+    height: 230px;
+    border: 1px solid none;
+    background: #666F52;
+    display: flex;
+    flex-direction: row;
+}
+
+.img_insta{
+    display: flex;
+    flex-direction: row;
+}
+.instaText{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 60px;
+
+}
+.instaText_1{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.instaLogo{
+    width: 30px;
+    height: 30px;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+.instaTextDiv{
+    display:flex;
+    flex-direction: column;
+    
+}
+.img_face{
+    display: flex;
+    flex-direction: row;
+}
+
+.faceText{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.faceLogo{
+    width: 30px;
+    height: 30px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.faceTextDiv{
+    display:flex;
+    flex-direction: column;
+    
+}
+.faceText_1{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.emailLogo{
+    width: 30px;
+    height: 30px;
+    margin-left: 400px;
+    margin-top: -0px;
+}   
+
+.emailTextDiv{
+    display:flex;
+    flex-direction: column;
+    
+}
+.emailText{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.img_email{
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    width:2px;
+    height: 150px;
+    background: #ffff;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.line:hover{
+    background: #000000;
+    transition: 0.2s;
+}
+.navigateLinksDiv1{
+    margin-left: 100px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}   
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
