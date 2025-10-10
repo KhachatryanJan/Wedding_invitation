@@ -1,0 +1,11 @@
+{
+  "name": "wedding_invitation",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend\""
+  }
+}

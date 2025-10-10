@@ -1,0 +1,103 @@
+
+.wrapper {
+  width: 100%;
+  max-width: 600px;
+  background-color: #EDE3D9;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+  text-align: center;
+  color: #9D7336;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input[type="text"] {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.optionGroup label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.radioGroup label {
+  font-weight: normal;
+}
+
+button {
+  padding: 0.8rem;
+  background: #9D7336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #9D7336;
+}
+
+
+
+.contactDiv {
+  width: 100%;
+  min-height: 70vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #FFFAF4; 
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+    padding: 1rem;
+  }
+  .contactDiv {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+  .radioGroup {
+    flex-direction: column;
+  }
+  .form {
+    gap: 1rem;
+  }
+  .optionGroup label {
+    margin-bottom: 0.2rem;
+  }
+  input[type="text"] {
+    font-size: 0.9rem;
+  }
+
+  
+}         
