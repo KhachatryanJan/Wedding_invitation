@@ -5,6 +5,8 @@
     background: #666F52;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+   
 }
 
 .img_insta{
@@ -110,3 +112,39 @@
     display: flex;
     flex-direction: column;
 }
+
+
+/*Responsive Design
+*/
+@media (max-width: 1024px) {
+    .footerDiv {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .instaLogo, .faceLogo, .emailLogo {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .instaText, .instaText_1, .faceText, .faceText_1, .emailText {
+        margin-left: 10px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .navigateLinksDiv1 {
+        margin-left: 0;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}   

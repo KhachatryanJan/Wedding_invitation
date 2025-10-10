@@ -18,13 +18,11 @@ function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    alert(`Շնորհակալություն, ${formData.name}:
-    \n✅ Մասնակցություն՝ ${formData.attending}
-    \n👤 Կողմ՝ ${formData.side}`);
+  
 
-    // Այստեղ կարող եք տվյալները ուղարկել backend, կամ պահել
+   
     try {
-      const response = fetch("https://localhost:3000/api/guests", {
+      const response =  await fetch("http://localhost:5000/api/guests", {
         method: "Post",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)

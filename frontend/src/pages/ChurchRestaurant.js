@@ -20,7 +20,7 @@ function ChurchRestaura() {
                 referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
             </div>
-            <p className={styles.girl_p1}>Ժամը՝ 13:00</p>
+            <p className={styles.girl_p1}>Ժամը՝ 13:30</p>
         </section>
     )
 }

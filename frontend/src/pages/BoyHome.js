@@ -10,7 +10,7 @@ function BoyHome() {
                     alt="Փեսայի Տուն"
                     className={styles.image_hous}
                 />
-                <p className={styles.girl_p}>Ժամը՝ 12:30</p>
+                <p className={styles.girl_p}>Ժամը՝ 10:00</p>
                 <div className={styles.div_ifeam}>
                 <iframe
                     title="Եկեղեցու Քարտեզ"

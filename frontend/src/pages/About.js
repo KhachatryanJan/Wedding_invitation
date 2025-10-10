@@ -11,10 +11,11 @@ function About() {
             <h4 className={styles.title2 }>Նոյոմբերի 22</h4>
              <WeddingCountDown/>
             <div className={styles.div_about}>
+                <BoyHome/>
                 <GirlHome />
                 
                 <ChurchRestaura/>
-                <BoyHome/>
+                
                 </div >
             </div>
             )

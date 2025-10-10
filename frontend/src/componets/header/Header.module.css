@@ -54,3 +54,36 @@
     color: #E3DAC9;
     cursor: pointer;
 }
+@media (max-width: 1024px) {
+    .headerDiv {
+        height: 110px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 100px;
+    }
+
+    .navigateLinksDiv {
+        gap: 30px;
+        font-size: 20px;
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 600px) {
+    .headerDiv {
+        height: 90px;
+    }
+
+    .logo {
+        width: 90px;
+        height: 70px;
+    }
+
+    .navigateLinksDiv {
+        gap: 15px;
+        font-size: 16px;
+        margin-top: -70px; 
+    }
+}   

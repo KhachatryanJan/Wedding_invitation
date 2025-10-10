@@ -70,3 +70,34 @@ button:hover {
   background-color: #FFFAF4; 
   padding: 2rem;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+    padding: 1rem;
+  }
+  .contactDiv {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+  .radioGroup {
+    flex-direction: column;
+  }
+  .form {
+    gap: 1rem;
+  }
+  .optionGroup label {
+    margin-bottom: 0.2rem;
+  }
+  input[type="text"] {
+    font-size: 0.9rem;
+  }
+
+  
+}         
